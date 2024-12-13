@@ -1,0 +1,25 @@
+<div class="container">
+    <h1>Conversor de Temperatura</h1>
+    
+    <label for="inputTemperature">Temperatura de entrada:</label>
+    <input type="number" id="inputTemperature" [(ngModel)]="inputTemperature">
+    
+    <label for="inputScale">Escala de entrada:</label>
+    <select id="inputScale" [(ngModel)]="inputScale">
+      <option value="C">Celsius (°C)</option>
+      <option value="F">Fahrenheit (°F)</option>
+      <option value="K">Kelvin (K)</option>
+    </select>
+    
+    <label for="outputScale">Escala de salida:</label>
+    <select id="outputScale" [(ngModel)]="outputScale">
+      <option value="C">Celsius (°C)</option>
+      <option value="F">Fahrenheit (°F)</option>
+      <option value="K">Kelvin (K)</option>
+    </select>
+    
+    <button (click)="convertTemperature()">Convertir</button>
+    
+    <h2 *ngIf="result">Resultado: {{ result }}</h2>
+  </div>
+  
