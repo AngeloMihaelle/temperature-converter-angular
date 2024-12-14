@@ -51,6 +51,12 @@ La aplicación permite realizar las siguientes conversiones:
 2. Ingresa un valor de temperatura en una de las cajas de entrada (por ejemplo, en Celsius).
 3. La aplicación realizará automáticamente la conversión y mostrará el valor equivalente en Fahrenheit y Kelvin.
 
+## Interfaz de Usuario
+
+A continuación, se muestra cómo luce la interfaz de usuario de la aplicación:
+
+![Interfaz de Usuario](src/assets/ui.png)
+
 ## Estructura del Proyecto
 
 - `src/app/`: Contiene los archivos principales de la aplicación Angular.
@@ -60,6 +66,16 @@ La aplicación permite realizar las siguientes conversiones:
 
 - `src/assets/`: Archivos estáticos (imágenes, iconos, etc.).
 - `angular.json`: Configuración de Angular CLI.
+
+## Contribuciones
+
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama para tu feature (`git checkout -b feature-nueva`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Agregada nueva feature'`).
+4. Haz push a la rama (`git push origin feature-nueva`).
+5. Abre un pull request.
 
 ## Licencia
 
