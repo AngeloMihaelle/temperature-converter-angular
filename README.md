@@ -1,59 +1,80 @@
-# TemperatureConverter
+# Conversión de Temperatura - Aplicación Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.5.
+Este proyecto es una aplicación web desarrollada utilizando Angular que permite realizar conversiones entre diferentes escalas de temperatura: Celsius (°C), Fahrenheit (°F) y Kelvin (K). La aplicación permite a los usuarios ingresar un valor de temperatura en una escala y obtener el valor equivalente en las otras dos escalas.
 
-## Development server
+## Funcionalidades
 
-To start a local development server, run:
+La aplicación permite realizar las siguientes conversiones:
 
-```bash
-ng serve
-```
+- De **Celsius (°C)** a **Fahrenheit (°F)** y **Kelvin (K)**
+  - Fórmula: (°C × 9/5) + 32 = °F
+  - Fórmula: °C + 273.15 = K
+- De **Fahrenheit (°F)** a **Celsius (°C)** y **Kelvin (K)**
+  - Fórmula: (°F − 32) × 5/9 = °C
+  - Fórmula: (°F − 32) × 5/9 + 273.15 = K
+- De **Kelvin (K)** a **Celsius (°C)** y **Fahrenheit (°F)**
+  - Fórmula: K − 273.15 = °C
+  - Fórmula: (K − 273.15) × 9/5 + 32 = °F
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Requisitos
 
-## Code scaffolding
+- Node.js (versión 14 o superior)
+- Angular CLI
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Instalación
 
-```bash
-ng generate component component-name
-```
+1. Clona este repositorio en tu máquina local:
+   ```bash
+   git clone https://github.com/tu-usuario/conversion-temperatura.git
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. Navega al directorio del proyecto:
+   ```bash
+   cd conversion-temperatura
+   ```
 
-```bash
-ng generate --help
-```
+3. Instala las dependencias del proyecto:
+   ```bash
+   npm install
+   ```
 
-## Building
+4. Ejecuta la aplicación:
+   ```bash
+   ng serve
+   ```
 
-To build the project run:
+   La aplicación estará disponible en `http://localhost:4200`.
 
-```bash
-ng build
-```
+## Uso
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+1. Abre la aplicación en tu navegador.
+2. Ingresa un valor de temperatura en una de las cajas de entrada (por ejemplo, en Celsius).
+3. La aplicación realizará automáticamente la conversión y mostrará el valor equivalente en Fahrenheit y Kelvin.
 
-## Running unit tests
+## Estructura del Proyecto
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+- `src/app/`: Contiene los archivos principales de la aplicación Angular.
+  - `app.component.ts`: Componente principal de la aplicación.
+  - `app.component.html`: Plantilla HTML para la interfaz de usuario.
+  - `app.component.css`: Estilos CSS para la aplicación.
 
-```bash
-ng test
-```
+- `src/assets/`: Archivos estáticos (imágenes, iconos, etc.).
+- `angular.json`: Configuración de Angular CLI.
 
-## Running end-to-end tests
+## Contribuciones
 
-For end-to-end (e2e) testing, run:
+Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
 
-```bash
-ng e2e
-```
+1. Haz un fork del repositorio.
+2. Crea una rama para tu feature (`git checkout -b feature-nueva`).
+3. Realiza tus cambios y haz commit (`git commit -am 'Agregada nueva feature'`).
+4. Haz push a la rama (`git push origin feature-nueva`).
+5. Abre un pull request.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+## Licencia
 
-## Additional Resources
+Este proyecto está bajo la Licencia GNU General Public License v2 (GPL-2.0).
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Autor
+
+- [Angelo Ojeda](https://github.com/AngeloMihaelle)
