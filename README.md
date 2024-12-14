@@ -51,6 +51,12 @@ La aplicación permite realizar las siguientes conversiones:
 2. Ingresa un valor de temperatura en una de las cajas de entrada (por ejemplo, en Celsius).
 3. La aplicación realizará automáticamente la conversión y mostrará el valor equivalente en Fahrenheit y Kelvin.
 
+## Interfaz de Usuario
+
+A continuación, se muestra cómo luce la interfaz de usuario de la aplicación:
+
+![Interfaz de Usuario](src/assets/ui.png)
+
 ## Estructura del Proyecto
 
 - `src/app/`: Contiene los archivos principales de la aplicación Angular.
