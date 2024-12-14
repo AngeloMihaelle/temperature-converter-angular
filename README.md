@@ -61,16 +61,6 @@ La aplicación permite realizar las siguientes conversiones:
 - `src/assets/`: Archivos estáticos (imágenes, iconos, etc.).
 - `angular.json`: Configuración de Angular CLI.
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una rama para tu feature (`git checkout -b feature-nueva`).
-3. Realiza tus cambios y haz commit (`git commit -am 'Agregada nueva feature'`).
-4. Haz push a la rama (`git push origin feature-nueva`).
-5. Abre un pull request.
-
 ## Licencia
 
 Este proyecto está bajo la Licencia GNU General Public License v2 (GPL-2.0).
